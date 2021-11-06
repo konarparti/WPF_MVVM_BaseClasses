@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Свойство с уведомлением</Title>
+      <Author>konarparti</Author>
+      <Description>Создает полное свойство с вызовом метода OnPropertyChanged()</Description>
+      <Shortcut>onprop</Shortcut>
+    </Header>    
+    <Snippet>
+      <Code Language="CSharp">
+      <![CDATA[private $type$ $variable$;
+      public $type$ $Property$ 
+      {
+        get {return $variable$;}
+        set 
+        {
+          $variable$ = value;
+          OnPropertyChanged();
+        }
+        $end$
+      }]]>
+      </Code>
+      <Declarations>
+        <Literal>
+        <ID>type</ID>
+        <Default>int</Default>
+        </Literal>
+        <Literal>
+          <ID>variable</ID>
+          <Default>variableName</Default>
+        </Literal>
+        <Literal>
+          <ID>Property</ID>
+          <Default>PropertyName</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

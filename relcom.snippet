@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Шаблон для команды</Title>
+      <Author>konarparti</Author>
+      <Description>Создает шаблон для создания команды RelayCommand</Description>
+      <Shortcut>relcom</Shortcut>
+    </Header>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[private RelayCommand $variable$;
+      public RelayCommand $Property$ 
+      {
+        get 
+        {
+          return $variable$ ?? ($variable$ = new RelayCommand (o =>
+           {
+          
+           }));
+        }
+        
+      }]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>variable</ID>
+          <Default>variableName</Default>
+        </Literal>
+        <Literal>
+          <ID>Property</ID>
+          <Default>PropertyName</Default>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
