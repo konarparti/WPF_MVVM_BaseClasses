@@ -1,0 +1,6 @@
+C:\Users\anton\Desktop\WPF_MVVM_BaseClasses\WPF_MVVM_Classes\WPF_MVVM_Classes\obj\Debug\WPF_MVVM_Classes.csproj.AssemblyReference.cache
+C:\Users\anton\Desktop\WPF_MVVM_BaseClasses\WPF_MVVM_Classes\WPF_MVVM_Classes\obj\Debug\WPF_MVVM_Classes.csproj.CoreCompileInputs.cache
+C:\Users\anton\Desktop\WPF_MVVM_BaseClasses\WPF_MVVM_Classes\WPF_MVVM_Classes\bin\Debug\WPF_MVVM_Classes.dll
+C:\Users\anton\Desktop\WPF_MVVM_BaseClasses\WPF_MVVM_Classes\WPF_MVVM_Classes\bin\Debug\WPF_MVVM_Classes.pdb
+C:\Users\anton\Desktop\WPF_MVVM_BaseClasses\WPF_MVVM_Classes\WPF_MVVM_Classes\obj\Debug\WPF_MVVM_Classes.dll
+C:\Users\anton\Desktop\WPF_MVVM_BaseClasses\WPF_MVVM_Classes\WPF_MVVM_Classes\obj\Debug\WPF_MVVM_Classes.pdb
