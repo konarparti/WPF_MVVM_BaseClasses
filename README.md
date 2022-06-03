@@ -17,8 +17,8 @@ public RelayCommand OpenChildCommand
             {
                 return new RelayCommand(command =>
                 {
-                    var vm = new SecondWindowViewModel();
-                    RegisterWindow(new SecondWindow(), vm, "Some title");
+                    var vm = new ChildWindowViewModel();
+                    RegisterWindow(new ChildWindow(), vm, "Some title");
                     var win = ChildWindows[vm];
                     win.Show();
                 });
